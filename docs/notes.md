@@ -75,3 +75,19 @@ Servo tests darbojās Arduino IDE vidē
 Ultraskaņas sensora tests darbojās Arduino App Lab vidē ar Monitor
 
 Šajā konfigurācijā App Lab serial monitor izskatījās ierobežots līdz 9600 baud
+
+### OLED display notes
+
+- OLED display test worked in Arduino IDE
+- Display worked with `VCC -> 5V`
+- Display worked with dedicated `SDA` and `SCL` pins on Arduino UNO Q
+- Display did not work in this setup when connected to `A4/A5`
+- Working I2C address in this setup was `0x3C`
+
+### OLED displeja piezīmes
+
+- OLED displeja tests darbojās Arduino IDE vidē
+- Displejs darbojās ar `VCC -> 5V`
+- Displejs darbojās ar atsevišķajiem `SDA` un `SCL` piniem uz Arduino UNO Q
+- Šajā konfigurācijā displejs nedarbojās, kad bija pieslēgts pie `A4/A5`
+- Darba I2C adrese šajā konfigurācijā bija `0x3C`
